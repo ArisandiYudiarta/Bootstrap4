@@ -1,201 +1,201 @@
 /* Navbar */
-.navbar{
-    position: relative;
-    z-index: 1;
+.navbar {
+  position: relative;
+  z-index: 1;
 }
 
-.navbar-brand{
-    font-family: 'Viga', sans-serif;
-    font-size: 32px;
+.navbar-brand {
+  font-family: "Viga", sans-serif;
+  font-size: 32px;
 }
 
 /* Utilities */
 
-.tombol{
-    text-transform: uppercase;
-    border-radius: 40px;
+.tombol {
+  text-transform: uppercase;
+  border-radius: 15px;
 }
 
 /* Jumbotron */
 
-.jumbotron{
-    background-image: url(img/jumbotron-bg.jpg);
-    background-size: cover;
-    height: 440px;
-    text-align: center;
-    position: relative;
+.jumbotron {
+  background-image: url(img/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 440px;
+  text-align: center;
+  position: relative;
 }
 
-.jumbotron .container{
-    z-index: 1;
-    position: relative;
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
 }
 
-.jumbotron::after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
-    position: absolute;
-    bottom: 0;
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
 }
 
-.jumbotron .display-4{
-    color: white;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    font-weight: 200;
-    font-size: 40px;
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-weight: 200;
+  font-size: 40px;
 }
 
-.jumbotron .display-4 span{
-    font-weight: 600;
+.jumbotron .display-4 span {
+  font-weight: 600;
 }
 
 /* Info Panel */
 
-.info-panel{
-    box-shadow: 0 3px 20px rgba(0,0,0, 0.6);
-    border-radius: 20px;
-    margin-top: -110px;
-    background-color: white;
-    padding: 30px;
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  margin-top: -110px;
+  background-color: white;
+  padding: 30px;
 }
 
-.info-panel img{
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
+.info-panel img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
 }
 
-.info-panel h4{
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-top: 10px;
+.info-panel h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 /* Workingspace */
 
-.workingspace, .workingspace2{
-    margin-top: 120px;
-    text-align: center;
+.workingspace,
+.workingspace2 {
+  margin-top: 120px;
+  text-align: center;
 }
 
-.workingspace h3, .workingspace2 h3{
-    font-size: 52px;
-    font-weight: 200;
-    text-transform: uppercase;
-    margin-top: 30px;
-    text-align: center;
+.workingspace h3,
+.workingspace2 h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
 }
 
-.workingspace h3 span, .workingspace2 h3 span{
-    font-weight: 600;
+.workingspace h3 span,
+.workingspace2 h3 span {
+  font-weight: 600;
 }
 
-.workingspace p, .workingspace2 p{
-    font: 18px;
-    color: grey;
-    margin: 25px 0;
+.workingspace p,
+.workingspace2 p {
+  font: 18px;
+  color: grey;
+  margin: 25px 0;
 }
 
-.workingspace2{
-    margin-top: 100px;
+.workingspace2 {
+  margin-top: 100px;
 }
 
-.workingspace2 img{
-    margin-top: 30px;
-    border-radius: 12px;
+.workingspace2 img {
+  margin-top: 30px;
+  border-radius: 12px;
 }
-
-
 
 /* Testimonial */
 
-.testimonial{
-    margin-top: 100px;
+.testimonial {
+  margin-top: 100px;
 }
 
-.testimonial h5{
-    text-align: center;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 24px;
+.testimonial h5 {
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 24px;
 }
 
-.testimonial figure img{
-    width: 100px;
-    margin: 20px 15px 10px;
+.testimonial figure img {
+  width: 100px;
+  margin: 20px 15px 10px;
 }
 
-.testimonial .fig-fade img{
-    width: 75px;
-    opacity: 0.7;
-    margin: 35px 10px;
+.testimonial .fig-fade img {
+  width: 75px;
+  opacity: 0.7;
+  margin: 35px 10px;
 }
 
-.testimonial figure h5{
-    font-size: 16px;
-    font-weight: bold;
-    font-style: normal;
-    color: #1c2c5d;
+.testimonial figure h5 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  color: #1c2c5d;
 }
 
-.testimonial figcaption p{
-    text-align: center;
-    margin-top: -10px;
+.testimonial figcaption p {
+  text-align: center;
+  margin-top: -10px;
 }
 
 /*  DESKTOP MED VER */
 @media (min-width: 992px) {
-    .nav-link{
-        text-transform: uppercase;
-        margin-right: 30px;
-        transition: .5s;
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    transition: 0.5s;
+  }
 
-    }
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
 
-    .navbar-brand, .nav-link{
-        color: white !important;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 4px;
+    margin-bottom: -7px;
+  }
 
-    .nav-link:hover::after{
-        content:"";
-        display: block;
-        border-bottom: 3px solid #0b63dc;
-        width: 50%;
-        margin: auto;
-        padding-bottom: 4px;
-        margin-bottom: -7px;
-    }
+  .jumbotron {
+    margin-top: -75px;
+    height: 740px;
+  }
 
-    .jumbotron{
-        margin-top: -75px;
-        height: 740px;
-    }
+  .jumbotron .display-4 {
+    margin-top: 160px;
+    font-size: 62px;
+  }
 
-    .jumbotron .display-4{
-        margin-top: 160px;
-        font-size: 62px;
-    }
-    
-    .workingspace, .workingspace h3{
-        text-align: left;
-    }
+  .workingspace,
+  .workingspace h3 {
+    text-align: left;
+  }
 
-    .workingspace2, .workingspace2 h3{
-        text-align: right;
-    }
+  .workingspace2,
+  .workingspace2 h3 {
+    text-align: right;
+  }
 
-    .testimonial h5{
-        font-size: 32px;
-    }
-    
-    
+  .testimonial h5 {
+    font-size: 32px;
+  }
 }
-
-
